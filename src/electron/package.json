@@ -1,0 +1,9 @@
+{
+  "name": "example-menubar-app",
+  "version": "1.0.0",
+  "description": "example menubar electron app",
+  "dependencies": {
+    "menubar": "*"
+  },
+  "main": "menubar-init.js"
+}

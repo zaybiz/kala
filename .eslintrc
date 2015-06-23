@@ -1,0 +1,24 @@
+{
+    "rules": {
+        "quotes": [2, "single", "avoid-escape"]
+    },
+    "plugins": [
+      "react"
+    ],
+    "env": {
+        "node": 1
+    },
+    "ecmaFeatures": {
+        "jsx": true,
+        "arrowFunctions":true
+    },
+    "globals"   : {
+      "describe"   : false,
+      "it"         : false,
+      "before"     : false,
+      "beforeEach" : false,
+      "after"      : false,
+      "expect      : false,
+      "afterEach"  : false
+    }
+}
